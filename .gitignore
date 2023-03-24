@@ -1,0 +1,12 @@
+
+*.pyc
+*.pth
+*.iml
+*.pickle
+*.wav
+*.jpg
+*.mp4
+*.wav
+*.iml
+.idea/misc.xml
+*.xml
