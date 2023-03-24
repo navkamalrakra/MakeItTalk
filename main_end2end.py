@@ -80,7 +80,7 @@ if(opt_parser.close_input_face_mouth):
 
 
 ''' Additional manual adjustment to input face landmarks (slimmer lips and wider eyes) '''
-# shape_3d[48:, 0] = (shape_3d[48:, 0] - np.mean(shape_3d[48:, 0])) * 0.95 + np.mean(shape_3d[48:, 0])
+shape_3d[48:, 0] = (shape_3d[48:, 0] - np.mean(shape_3d[48:, 0])) * 0.95 + np.mean(shape_3d[48:, 0])
 shape_3d[49:54, 1] += 1.
 shape_3d[55:60, 1] -= 1.
 shape_3d[[37,38,43,44], 1] -=2
